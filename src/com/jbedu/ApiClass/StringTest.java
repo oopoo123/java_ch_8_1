@@ -39,7 +39,18 @@ public class StringTest {
 		Integer int1 = new Integer(strnum);
 		
 		double mok = totalMoney / 5;
-
+		
+		//0.0 <= Math.random() < 1.0
+		
+		System.out.println(Math.random()); // 랜덤수 반환 -> 범위 0.0 ~ 1.0사이의 수 중 랜덤수 반환
+		
+		System.out.println((int)(Math.random() * 11));// 0 ~ 10사이의 정수 중 한개가 반환
+		
+		System.out.println((int)(Math.random() * 10));//1부터 10사이의 정수 중 한개가 반환
+		
+		System.out.println((int)(Math.random() * 20) + 1);//1부터 20사이의 정수 중 한개가 반환
+		
+		System.out.println((int)(Math.random() * 45) + 1);//1부터 45사이의 정수 중 한개가 반환
 	}
 
 }
